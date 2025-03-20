@@ -1,7 +1,7 @@
 export default {
     providers: [
       {
-        domain: 'https://suitable-owl-59.clerk.accounts.dev',
+        domain: process.env.CLERK_ISSUER_URL!,
         applicationID: 'convex',
       },
     ],
