@@ -56,6 +56,7 @@ http.route({
           email,
           name,
           image: image_url,
+          role:"interviewer"
         });
       } catch (error) {
         console.log("Error creating user:", error);
